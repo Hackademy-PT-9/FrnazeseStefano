@@ -1,5 +1,5 @@
 <?php
-include 'funzioni.php';
+require_once 'funzioni.php';
 
 echo "\n";
 echo "\033[0;33mSelfworks 003\033[0m \n";
