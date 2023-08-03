@@ -12,7 +12,7 @@ class Company
         $this->name = $name;
         $this->office = $office;
         $this->total_employees = $total_employees;
-        
+        $this->calculateAnnualCost();
     }
 
     public function totalEmployees()

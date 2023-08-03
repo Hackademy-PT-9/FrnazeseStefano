@@ -8,11 +8,6 @@ $company4 = new Company('AirFrance','FRA',1400);
 $company5 = new Company('Barilla','ITA',500);
 
 $company1->totalEmployees();
-$company1->calculateAnnualCost();
-$company2->calculateAnnualCost();
-$company3->calculateAnnualCost();
-$company4->calculateAnnualCost();
-$company5->calculateAnnualCost();
+// $company1->calculateAnnualCost();
 $total_annual_cost = Company::getTotalAnnualCost();
-echo "\n";
-echo "Il costo annuale totale di tutte le istanze di Company è di $total_annual_cost Euro.";
+echo "\n\033[0;35mIl costo annuale totale di tutte le istanze di Company è di $total_annual_cost Euro.\033[0m \n";

@@ -9,6 +9,7 @@
 ⚡ Esercizio - 27/07 `Completato` <br>
 ⚡ Esercizio - 29/07 `Completato` <br>
 ⚡ Esercizio - 01/08 `Completato` <br>
+⚡ Esercizio - 03/08 `Completato` <br>
 <br/>
 
 
