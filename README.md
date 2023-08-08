@@ -10,6 +10,8 @@
 ⚡ Esercizio - 29/07 `Completato` <br>
 ⚡ Esercizio - 01/08 `Completato` <br>
 ⚡ Esercizio - 03/08 `Completato` <br>
+⚡ Esercizio - 05/08 `Completato` <br>
+⚡ Esercizio - 08/08(Laravel) `Completato` <br>
 <br/>
 
 
