@@ -1,0 +1,16 @@
+.coloreSfondo{
+    background-color: #121423;
+}
+.testoBianco{
+    color: #EFF0F7;
+}
+.testoPurple{
+    color: #A48EFF;
+}
+.colorNav{
+    background-color: rgba(33, 34, 51, 0.9)!important;
+}
+
+a:hover{
+    color: rgb(112, 107, 143)!important;
+}
