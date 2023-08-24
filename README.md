@@ -5,14 +5,16 @@
 
 ## 👨🏻‍🎓 Selfwork
 
-⚡ Esercizio - 25/07 `Completato` <br>
-⚡ Esercizio - 27/07 `Completato` <br>
-⚡ Esercizio - 29/07 `Completato` <br>
-⚡ Esercizio - 01/08 `Completato` <br>
-⚡ Esercizio - 03/08 `Completato` <br>
-⚡ Esercizio - 05/08 `Completato` <br>
-⚡ Esercizio - 08/08(Laravel) `Completato` <br>
-⚡ Esercizio - 10/08(Laravel) ` Da completare` <br>
+⚡ Esercizio - 25/07 `(php)` <br>
+⚡ Esercizio - 27/07 `(php)` <br>
+⚡ Esercizio - 29/07 `(php)` <br>
+⚡ Esercizio - 01/08 `(php)` <br>
+⚡ Esercizio - 03/08 `(php)` <br>
+⚡ Esercizio - 05/08 `(php)` <br>
+⚡ Esercizio - 08/08 `(Laravel)` <br>
+⚡ Esercizio - 10/08 `(Laravel)` <br>
+⚡ Esercizio - Fakeflix `(Laravel)` <br>
+⚡ Esercizio - Portfolio `(Laravel)` <br>
 <br/>
 
 
