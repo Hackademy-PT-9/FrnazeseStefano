@@ -1,6 +1,6 @@
 
 <!-- tag line -->
-<h2 align='center'> 💻 Esercizi PHP </h2>
+<h2 align='center'> 💻 Esercizi PHP/LARAVEL </h2>
 
 
 ## 👨🏻‍🎓 Selfwork
@@ -15,6 +15,7 @@
 ⚡ Esercizio - 10/08 `(Laravel)` <br>
 ⚡ Esercizio - Fakeflix `(Laravel)` <br>
 ⚡ Esercizio - Portfolio `(Laravel)` <br>
+⚡ Esercizio - Salando `(Laravel)` <br>
 <br/>
 
 
