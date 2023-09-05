@@ -16,6 +16,8 @@
 ⚡ Esercizio - Fakeflix `(Laravel)` <br>
 ⚡ Esercizio - Portfolio `(Laravel)` <br>
 ⚡ Esercizio - Salando `(Laravel)` <br>
+⚡ Esercizio - FakeStore `(Laravel)` <br>
+⚡ Esercizio - Library `(Laravel)` <br>
 <br/>
 
 
