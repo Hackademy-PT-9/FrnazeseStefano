@@ -3,7 +3,7 @@
         <h2 class="pb-2 border-bottom">Create book</h2>
         <div class="row g-4 py-5 row-cols-1 row-cols-lg-3 mb-5">
           <div class="col d-flex align-items-center">
-            <form action="{{ route('store') }}" method="POST">
+            <form action="{{ route('store') }}" method="POST" enctype="multipart/form-data">
                 @csrf
                 <div class="mb-3">
                   <label class="form-label">Name</label>
@@ -17,7 +17,11 @@
                 <div class="mb-3">
                     <label class="form-label">Year of publication</label>
                     <input type="number"  name="anno_pubblicazione" value="{{ old('anno_pubblicazione') }}" class="form-control"min="1000" max="9999" >
-                  </div>
+                </div>
+                <div class="mb-4">
+                  <label class="form-label">Cover image</label>
+                  <input type="file"  name="image" class="form-control" >
+              </div>
                 <button type="submit" class="btn btn-success">Create</button>
               </form>
           </div>
