@@ -23,8 +23,7 @@
                   <img src="{{ asset('storage/uploads/' . $book->image) }}" class="card-img-top" alt=" image">
                   <div  class="form-text">You can replace your cover image.</div>
                   <input type="file"  name="image" class="form-control mt-4" >
-                  
-              </div>
+                </div>
                 <button type="submit" class="btn btn-success">Save</button>
               </form>
           </div>

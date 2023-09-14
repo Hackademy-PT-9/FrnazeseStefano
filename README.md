@@ -18,6 +18,7 @@
 ⚡ Esercizio - Salando `(Laravel)` <br>
 ⚡ Esercizio - FakeStore `(Laravel)` <br>
 ⚡ Esercizio - Library `(Laravel)` <br>
+⚡ Esercizio - Blog `(Laravel)` <br>
 <br/>
 
 

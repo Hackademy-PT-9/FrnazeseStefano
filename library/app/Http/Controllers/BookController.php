@@ -13,7 +13,7 @@ class BookController extends Controller
     public function index()
     {
         return view('home', ['books' => Book::all()]);
-    
+
     }
 
 
@@ -36,16 +36,16 @@ class BookController extends Controller
             $file_name = $request->file('image')->getClientOriginalName();
             $request->file('image')->storeAs('public/uploads', $file_name);
         } else {
-            $file_name = ''; 
+            $file_name = '';
         }
-    
+
         Book::create([
             'nome' => $request->input('nome'),
             'anno_pubblicazione' => $request->input('anno_pubblicazione'),
             'numero_pagine' => $request->input('numero_pagine'),
             'image' => $file_name,
         ]);
-    
+
 
 
         return redirect()->route('home')->with('success', 'Book created successfully!');
@@ -71,27 +71,29 @@ class BookController extends Controller
         if (!$request->hasFile('image') || !$request->file('image')->isValid()) {
             return redirect()->route('home')->with('error', 'Il file non è valido!');
         }
-    
+
         if ($book->image) {
             $file_path = 'public/uploads/' . $book->image;
             if (Storage::exists($file_path)) {
                 Storage::delete($file_path);
             }
         }
-    
+
         $file_name = $request->file('image')->getClientOriginalName();
         $request->file('image')->storeAs('public/uploads', $file_name);
-    
+
         $book->update([
             'nome' => $request->input('nome'),
             'anno_pubblicazione' => $request->input('anno_pubblicazione'),
             'numero_pagine' => $request->input('numero_pagine'),
             'image' => $file_name
         ]);
-    
+
         return redirect()->route('home')->with('success', 'Libro aggiornato con successo!');
     }
-    
+
+
+
 
     public function destroy(Book $book)
     {
