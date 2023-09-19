@@ -10,8 +10,11 @@
                   <a class="nav-link {{ Route::currentRouteName() == 'home' ? 'active' : '' }}" aria-current="page" href="{{ route('home') }}">Home</a>
               </li>
               <li class="nav-item ms-3">
-                  <a href="{{ route('create') }}" class="btn btn-success {{ Route::currentRouteName() == 'create' ? 'disabled' : '' }}">+Add Book</a>
+                  <a href="{{ route('books.create') }}" class="btn btn-success {{ Route::currentRouteName() == 'books.create' ? 'disabled' : '' }}">+Add Book</a>
               </li>
+              <li class="nav-item ms-3">
+                <a href="{{ route('authors.create') }}" class="btn btn-success {{ Route::currentRouteName() == 'authors.create' ? 'disabled' : '' }}">+Add Author</a>
+            </li>
           </ul>
       </div>
   </div>
